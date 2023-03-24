@@ -1,6 +1,7 @@
 .header {
-    background-color: aquamarine;
+    background-color: var(--clr-primario);
     padding: 2rem;
+    color: white;
 }
 
 .header__content {
@@ -12,4 +13,7 @@
 .header__content button {
     margin-left: 1rem;
     cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .025rem;
+    color: white;
 }
