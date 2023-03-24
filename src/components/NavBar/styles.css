@@ -1,0 +1,15 @@
+.header {
+    background-color: aquamarine;
+    padding: 2rem;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__content button {
+    margin-left: 1rem;
+    cursor: pointer;
+}
