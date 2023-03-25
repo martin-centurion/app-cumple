@@ -28,15 +28,19 @@
 }
 
 .banner__content-title button {
+    display: flex;
     border-radius: 10px;
+    font-size: 1.3rem;
     margin-top: 2rem;
     background-color: var(--clr-primario);
     color: white;
-    text-transform: uppercase;
+    font-family: var(--ff-primaria);
     padding: 1.2rem;
     width: 100%;
     cursor: pointer;
     transition: .3s;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner__content-title button:hover {
@@ -44,7 +48,8 @@
 }
 
 .banner__content-title button span {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin-right: 15px;
 }
 
 
