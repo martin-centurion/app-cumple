@@ -53,6 +53,11 @@ const products = [
         id: 11,
         img: "https://i.ibb.co/NNmfVrv/20-foto.jpg",
         title: "Con mi padrino jugando a programar",
+    },
+    {
+        id: 12,
+        img: "https://i.ibb.co/1mVmSn7/IMG-20230324-WA0024.jpg",
+        title: "Con mi Madrina Vane",
     }
 ]
 
