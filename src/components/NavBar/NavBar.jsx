@@ -28,6 +28,9 @@ function NavBar() {
                     <Link to='/fotos'>
                         <button onClick={ showNavBar }>Mis Fotitos</button>
                     </Link>
+                    <Link to='https://goo.gl/maps/FDDHMJ4jCPdmXoBB9'>
+                        <button onClick={ showNavBar }>Ir a mi cumple</button>
+                    </Link>
                     <button className='nav-btn nav-close-btn' onClick={showNavBar}>
                         <FaTimes />
                     </button>
