@@ -21,7 +21,7 @@ function Banner() {
             <div className='info__content'>
                 <div className='info__content-data'>
                     <h3>{<AiOutlineClockCircle />}</h3>
-                    <p>Desde las 13 hasta 18h</p>
+                    <p>Desde las 13 hasta las 18h</p>
                 </div>
                 <div className='info__content-data'>
                     <h3>{<AiOutlineCalendar />}</h3>
