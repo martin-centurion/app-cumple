@@ -1,76 +1,84 @@
-.header {
+/* .header {
     color: white;
     background-color: var(--clr-primario);
     padding: 2rem;
+} */
+
+.header {
+  background-image: url("https://i.ibb.co/987F0zV/kity.jpg");
+  padding: 4rem 2rem;
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  width: 100%; /* Asegúrate de que el ancho sea completo */
+  height: 20vh; /* Asegúrate de que ocupe toda la altura de la ventana */
 }
 
 .header__content-logo h1 {
-    color: white;
+  color: var(--clr-secundario);
 }
 
 .header__content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
 
-
 nav button {
-    margin-left: 10px;
-    color: white;
-    font-family: var(--ff-primario);
-    font-weight: bold;
-    transition: .3s;
-    cursor: pointer;
+  margin-left: 10px;
+  color: var(--clr-secundario);
+  font-family: var(--ff-primario);
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 nav button:hover {
-    color: var(--clr-secundario);
+  color: var(--clr-secundario);
 }
 
 .header .nav-btn {
-    padding: 5px;
-    color: white;
-    visibility: hidden;
-    opacity: 0;
-    font-size: 2rem;
+  padding: 5px;
+  color: var(--clr-secundario);
+  visibility: hidden;
+  opacity: 0;
+  font-size: 2rem;
 }
 
-
 @media screen and (max-width: 520px) {
-    .header .nav-btn {
-        visibility: visible;
-        opacity: 1;
-    }
+  .header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
 
-    .header nav {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 3rem;
-        background-color: var(--clr-primario);
-        transition: .5s;
-        transform: translateY(-100vh);
-    }
+  .header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    background-color: var(--clr-primario);
+    transition: 0.5s;
+    transform: translateY(-100vh);
+  }
 
-    .header .responsive_nav {
-        transform: none;
-    }
+  .header .responsive_nav {
+    transform: none;
+  }
 
-    nav .nav-close-btn {
-        position: absolute;
-        top: 2rem;
-        right: 2rem;
-    }
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
 
-    nav button {
-        font-size: 2.5rem;
-    }
+  nav button {
+    font-size: 2.5rem;
+  }
 }

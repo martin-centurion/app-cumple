@@ -9,15 +9,14 @@ function Banner() {
     <div className="banner">
       <div className="banner__content">
         <div className="banner__content-img">
-          <img
-            src="
-https://i.ibb.co/KbtDGvZ/Whats-App-Image-2025-01-01-at-17-03-46-1.jpg"
-            alt="Catalina"
-          />
+          <img src="https://i.ibb.co/bBN5r5Q/banner-cata.jpg" alt="Catalina" />
         </div>
         <div className="banner__content-title">
           <h1>Catalina</h1>
-          <p>Invitacion a mi cumple!</p>
+          <p>
+            Hola! Espero les guste mi aplicación para mi cumple! Van a encontrar
+            toda la información necesaria para que puedan asistir. Los Espero!!!
+          </p>
         </div>
       </div>
       <div className="info">

@@ -13,7 +13,7 @@ button {
 }
 
 :root {
-  --clr-primario: rgb(218, 14, 58);
+  --clr-primario: #f3d7e9;
   --clr-secundario: rgb(230, 3, 127);
   --ff-primaria: "Playfair Display", serif;
   --ff-secundaria: "Poppins", sans-serif;

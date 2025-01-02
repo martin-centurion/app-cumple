@@ -3,7 +3,7 @@ import "./styles.css";
 import { Link } from "react-router-dom";
 //import { CgBee } from "react-icons/cg";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { TbCat } from "react-icons/tb";
+import { RiHome6Line } from "react-icons/ri";
 
 function NavBar() {
   const navRef = useRef();
@@ -18,7 +18,7 @@ function NavBar() {
         <div className="header__content-logo">
           <Link to="/">
             <h1>
-              <TbCat />
+              <RiHome6Line />
             </h1>
           </Link>
         </div>
